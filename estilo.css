@@ -1,0 +1,25 @@
+.fondo{
+    display: inline-block;
+    background-color: rgb(98, 126, 250);
+    width: 230px;
+    height: 75%;
+    border: 3px solid #00a2ff;
+}
+#pmrnum, #sgnum, #resultado {
+    border-radius: 10%;
+    width: 47px;
+    height: 25px;
+    margin-left: 13px;
+}
+#suma,#resta,#multiplicacion,#division,#porsentaje{
+    width: 35px;
+    height: 35px;
+    font-size: 26px;
+}
+#suma,#resta,#division,#porsentaje{
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+#multiplicacion{
+    margin-left: 10px;
+}
