@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba</title>
-    <link rel="stylesheet" type="text/css" href="proyect2.0.css">
+    <link rel="stylesheet" type="text/css" href="proyecto2.0.css">
 </head>
 <body>
     
@@ -14,12 +14,13 @@
         </section>
         <section>
             <div class="contenedor_todo">
+
+                <div class="caja_trasera">
                 <div class="caja_trasera-login">
                     <h3>¿Ya tienes una cuenta?</h3>
                     <p>Inicia sesion para entrar en la página</p>
                     <button id="btn_iniciar-sesion">Iniciar Sesión</button>
                 </div>
-                <div class="contenedor_todo">
                     <div class="caja_trasera-register">
                         <h3>¿Aun no tienes una cuenta?</h3>
                         <p>Registrate para que puedas iniciar sesión</p>
@@ -46,7 +47,6 @@
                         <input type="text" placeholder="Teléfono">
                         <input type="text" placeholder="Usuario">
                         <input type="password" placeholder="Contraseña">
-                        
                         <button>Entrar</button>
                     </form>
                 </div>
