@@ -1,0 +1,181 @@
+<?php
+ <!DOCTIPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X_UA-Compatible" content?"IE=edge">
+    <meta name="viewreport" content="width=device-widrh, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    
+    
+    <div class="college-scholariship-Udelistmo">
+    <div class="form.college.wallsmart">
+    <img src="imagenes/ejemploxd.png" alt="avatar" class="avatar">
+    </head>
+    <body>
+    
+    <style>
+    
+    
+    
+    img.avatar{
+        width:50%;
+        border-radius:50%;
+        padding:12px;
+        
+        
+    }
+
+
+
+
+.form-college.wallsmart{
+    margin:0 0 0 12px ;
+    text-align:center;
+    position:relative;
+    
+    
+    
+    
+}
+
+
+
+.college-scholariship-Udelitsmo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:80px 40px;
+    width:400px;
+    height:5
+    00px;
+    background:rgba(0,0,0,0.5);
+    box-sizing:border.box;
+    box-shadow:opx 2px 2px rgba(0,0,0,0.9);
+    
+    
+}
+
+
+
+
+
+
+body{
+    
+padding:0;
+margin:0;
+background.image:url("imagenes/imagenejemploxd.png")
+background-size:cover;
+background-repeat:no-repeat;
+
+}
+
+
+
+
+
+    
+    .Login-Former-Industries{
+    display:flex;
+    width:100;
+    margin-botton:15px;
+    
+    }
+    
+    
+    
+    .icon{
+    padding:15px;
+    background-color:dodgerblue;
+    color:white;
+    min-width:50px;
+    text-align: center;
+    }
+    
+    
+    .Markship-Login-Form{
+        padding:15px;
+        width:100%;
+        outline:none;
+        
+        
+        
+        
+    }
+    
+    
+    .Markship-Login-Form:focus{
+    border:1px solid darkgreen;
+        
+        
+        
+    }
+    
+    
+    
+    .btn{
+    background:black;
+    border:none;
+    color:white;
+    cursor:pointer;
+    padding:15px 20px;
+    width:100%
+    opacity:0.9;
+    
+    
+    
+    
+    }
+    
+    .btn:hover {
+        opacity:1;
+        
+        
+        
+        
+        
+    }
+    
+    h2{
+        color:white;
+        
+        
+    }
+    
+    
+    </style>
+    
+    
+    
+    
+    
+    <h2> Bienvenidos a Terra Nomada</h2>
+    
+    <form action="#" method="#" style="max-width:500px;margin:auto">
+    
+    <div class="Login-Former-Industries">
+    <i class="fa fa-user icon"></i>
+    <input class="Markship-Login-form" type="text" placeholder="Clave name="Clave">
+    </div>
+    
+
+    <form action="#" method="#" style="max-width:500px;margin:auto">
+    
+    <div class="Login-Former-Industries">
+    <i class="fa fa- icon"></i>
+    <input class="Markship-Login-form" type="password" placeholder="Contraseña name="Contraseña">
+    </div>
+    
+    
+    
+    <button class="btn" type="submit">Iniciar sesion</button>
+    </div>
+    
+    </form>
+    
+    
+    </head>
+    <body>
