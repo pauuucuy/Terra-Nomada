@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Nómada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<nav>
+		<ul class="menu-horizontal">
+			<li><a href="#">Home</a></li>
+			<li>
+				<a href="#">Sobre nosotros</a>
+				<ul class="menu-vertical">
+					<li><a href="https://youtu.be/unxYUJCDAiU?si=1A4jI8HQSQkipoow">Descubre</a></li>
+					<li><a href="#">Misión</a></li>
+					<li><a href="#">Visión</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">FAQ</a>
+				<ul class="menu-vertical">
+					<li><a href="#">Preguntas frecuentes</a></li>
+					<li><a href="#">Haz tu pregunta</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Garantías</a></li>
+
+		</ul>
+	</nav>
+    <h1>Terra Nómada</h1>
+        <main>
+
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿Aún no tienes una cuenta?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <button id="btn__registrarse">Regístrarse</button>
+                    </div>
+                </div>
+
+                <!--Formulario de Login y registro-->
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Regístrarse</h2>
+                        <input type="text" placeholder="Nombre completo">
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Regístrarse</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <script src="script.js"></script>
+</body>
+</html>
