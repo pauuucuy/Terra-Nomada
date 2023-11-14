@@ -15,6 +15,7 @@ public class Resumen extends javax.swing.JFrame {
      */
     public Resumen() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
