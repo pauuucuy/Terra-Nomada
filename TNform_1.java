@@ -17,6 +17,7 @@ public class TNform_1 extends javax.swing.JFrame {
      */
     public TNform_1() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
