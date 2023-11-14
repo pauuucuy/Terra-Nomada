@@ -6,33 +6,52 @@
     <title>Terra Nómada</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-<nav>
+<header>
+    <nav>
 		<ul class="menu-horizontal">
-			<li><a href="#">Home</a></li>
-			<li>
-				<a href="#">Sobre nosotros</a>
+			<li><a href="#Sección1">Entra</a></li>
+			<li><a href="#Sección2">Sobre nosotros</a>
 				<ul class="menu-vertical">
 					<li><a href="https://youtu.be/unxYUJCDAiU?si=1A4jI8HQSQkipoow">Descubre</a></li>
-					<li><a href="#">Misión</a></li>
-					<li><a href="#">Visión</a></li>
+					<li><a href="#sub1">Misión</a></li>
+					<li><a href="#sub2">Visión</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">FAQ</a>
+				<a href="#Sección3">FAQ</a>
 				<ul class="menu-vertical">
-					<li><a href="#">Preguntas frecuentes</a></li>
-					<li><a href="#">Haz tu pregunta</a></li>
+					<li><a href="#sub3">Preguntas frecuentes</a></li>
+					<li><a href="#sub4">Haz tu pregunta</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Garantías</a></li>
-
+			<li><a href="#Sección4">Garantías</a></li>
+            <li>
+				<a href="#Sección5">CRUD</a>
+				<ul class="menu-vertical">
+					<li><a href="#sub5">Insertar</a></li>
+					<li><a href="#sub6">Consultar</a></li>
+                    <li><a href="#sub7">Eliminar</a></li>
+                    <li><a href="#sub8">Actualizar</a></li>
+				</ul>
+			</li>
 		</ul>
 	</nav>
+</header>
+</head>
+    <br>
+    <br>
+    <br>
+    <br>
     <h1>Terra Nómada</h1>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
         <main>
-
+            <section id="Sección1">
             <div class="contenedor__todo">
                 <div class="caja__trasera">
                     <div class="caja__trasera-login">
@@ -62,13 +81,52 @@
                         <h2>Regístrarse</h2>
                         <input type="text" placeholder="Nombre completo">
                         <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Dirección">
+                        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
                         <input type="text" placeholder="Usuario">
                         <input type="password" placeholder="Contraseña">
                         <button>Regístrarse</button>
                     </form>
                 </div>
             </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
+        <section id="Sección5">
+            <form action = "programakarol.php" method="POST">
+                <h4 style="text-align: center;"> Elige opcion </h4>
+                <select style="margin: 0 auto; display: block;" name = "option" id="option">
+                    <option value = 1> Insertar </option>
+                    <option value = 2> Consultar </option>
+                    <option value = 3> Eliminar </option>
+                    <option value = 4> Actualizar </option>
+                </select>
+                <h4 style="text-align: center;"> Ingresa datos </h4>
+                <br>
+            
+                Cedula <input type = "number" name = "Cedula">
+            
+                <br>
+                <br>
+                <div>
+                Nombre <input type = "text" name = "Nombre">
+                </div>
+                <br>
+                <br>
+                <div>
+                Apellido <input type = "text" name = "Apellido">
+                </div>
+                <br>
+                <br>
+                        <input type = "submit" value = "Ingresar">
+            </form>
+        </section>
         </main>
 
         <script src="script.js"></script>
